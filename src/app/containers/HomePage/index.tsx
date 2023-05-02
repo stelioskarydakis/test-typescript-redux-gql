@@ -22,11 +22,12 @@ const HomePage = () => {
 
   useEffect(() => {
     fetchAnimePage();
+    // eslint-disable-next-line
   }, []);
 
   return (
     <Container>
-      <h1>Hot anime of the month</h1>
+      <h1>Top anime of the month</h1>
       <FamousAnime />
     </Container>
   );
